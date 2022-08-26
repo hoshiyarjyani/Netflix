@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Series from "./Series";
+
 function App() {
   return (<>
     <h1>NETFLIX BEST SERIES IN 2022</h1>
@@ -19,7 +20,21 @@ function App() {
       title={Series[2].title}
       sname={Series[2].sname}
       link={Series[2].link}/>
-
+      <Card  
+      imgsrc={Series[3].imgsrc}
+      title={Series[3].title}
+      sname={Series[3].sname}
+      link={Series[3].link}/>
+      <Card  
+      imgsrc={Series[4].imgsrc}
+      title={Series[4].title}
+      sname={Series[4].sname}
+      link={Series[4].link}/>
+      <Card  
+      imgsrc={Series[5].imgsrc}
+      title={Series[5].title}
+      sname={Series[5].sname}
+      link={Series[5].link}/>
     </>
   );
 }
