@@ -101,3 +101,20 @@ button:hover{
     border: 1px solid black;
     cursor: pointer;
 }
+
+@media (max-width: 1238px) {
+    .card{width: 30%;}
+} 
+
+
+
+@media (max-width: 900px) {
+    .card{width: 60%;}
+}
+@media (max-width: 600px) {
+    .card{width: 90%;}
+}
+@media (max-width: 420px) {
+    .card{width: 25%;
+    margin-right: 30px;}
+}
