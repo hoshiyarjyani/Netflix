@@ -10,6 +10,7 @@ ReactDOM.render(
     {Series.map(function Nflix(value) {
   return (<>
      <Card  
+      key={value.id}
       imgsrc={value.imgsrc}
       title={value.title}
       sname={value.sname}
