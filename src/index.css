@@ -2,8 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #d2dbdd;
+    /* background-color: #d2dbdd; */
 }
+
+body{
+    background-image: url("./netflixBackgroundOpecity.png");
+}
+
 h1{
     font-size: 50px;
     text-align: center;
