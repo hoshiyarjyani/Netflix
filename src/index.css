@@ -116,10 +116,13 @@ button:hover{
 @media (max-width: 900px) {
     .card{width: 60%;}
 }
-@media (max-width: 600px) {
-    .card{width: 90%;}
+@media (max-width: 360px) {
+    .card{width: 250;
+    margin-left: 105px;}
 }
-@media (max-width: 420px) {
-    .card{width: 25%;
-    margin-right: 30px;}
+@media (max-width: 600px) {
+    .card{
+        width: 300px;
+        margin-left:57px;
+    }
 }

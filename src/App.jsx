@@ -1,10 +1,11 @@
 import React from "react";
 import Series from "./Series";
 import Card from "./Card";
+import Heading from "./Heading";
 
 const App = () => (
   <>
-    <h1>NETFLIX BEST SERIES IN 2022</h1>,
+    <Heading />,
     {Series.map(function Nflix(value) {
       return (
         <Card
